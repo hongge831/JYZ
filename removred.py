@@ -24,7 +24,7 @@ for imgName in tqdm(os.listdir(dsr)):
             if(int(data[0]) > 100 and abs(int(data[0])-int(data[1]))>50):
                 #创建impainting模板，即图像中红色的区域，mask只需要单通道
                 mask[i][j] +=255
-                dstimg = cv2.inpaint(img,mask[:,:,0],20,cv2.INPAINT_TELEA)
-                dstimg = cv2.cvtColor(dstimg,cv2.COLOR_BGR2RGB)
-                cv2.imwrite(dsr2+imgName,dstimg)
+    dstimg = cv2.inpaint(img,mask[:,:,0],20,cv2.INPAINT_TELEA)
+    dstimg = cv2.cvtColor(dstimg,cv2.COLOR_BGR2RGB)
+    cv2.imwrite(dsr2+imgName,dstimg)
 print('Get rid of the red box is finished!')
