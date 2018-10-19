@@ -3,6 +3,7 @@ from PIL import Image
 import xml.dom.minidom
 import numpy as np
 from tqdm import tqdm
+import shutil
 
 ImgPath = '/Users/yefanfan/Desktop/aligned_noPS/dangeboli_resize_nored_forlstm'
 AnnoPath = '/Users/yefanfan/Desktop/aligned_noPS/dangebolixml'
