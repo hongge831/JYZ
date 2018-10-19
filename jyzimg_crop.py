@@ -1,3 +1,7 @@
+# -- coding: utf-8 --
+#这个脚本是用来处理从一串绝缘子中截取单个绝缘子片的
+#作者：叶帆帆
+#创建时间，2018年10月19日
 import os
 from PIL import Image
 import xml.dom.minidom
