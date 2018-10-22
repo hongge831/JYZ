@@ -9,9 +9,9 @@ import numpy as np
 from tqdm import tqdm
 import shutil
 
-ImgPath = '/Users/yefanfan/Desktop/aligned_noPS/dangeboli_resize_nored_forlstm'
-AnnoPath = '/Users/yefanfan/Desktop/aligned_noPS/dangebolixml'
-ProcessedPath = '/Users/yefanfan/Desktop/aligned_noPS/dangeboli_crop'
+ImgPath = '/Volumes/Seagate Backup Plus Drive/aligned_noPS/test/classone'
+AnnoPath = '/Volumes/Seagate Backup Plus Drive/aligned_noPS/test/xml_classone'
+ProcessedPath = '/Volumes/Seagate Backup Plus Drive/aligned_noPS/classone_crop'
 
 if __name__ == '__main__':
     ##如果保存图片的目录不存在就创建
